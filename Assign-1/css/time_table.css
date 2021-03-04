@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html {
+    background: url(../images/book.jpg);
+    background-size: cover;
+    height: 100%;    
+  }
+
+body {
+    text-align: center;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    min-width: 320px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+
+h1 {
+    justify-content: center;
+    padding: 2rem;
+    word-spacing: 8px;
+    color: white;
+}
+
+
+
+b,h2 {
+    color: white;
+}
+
+tr {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
